@@ -1,0 +1,38 @@
+/* styles.css */
+
+body.user {
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  color: #5a2a27;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+body.admin {
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  color: #2b3a42;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+}
+
+body.manager {
+  background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+  color: #1d3c34;
+  font-family: 'Georgia', serif;
+  padding: 20px;
+}
+
+/* common styles for headings and links */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #555;
+}
